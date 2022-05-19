@@ -5,7 +5,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 export default function ProductItem() {
   return (
     <div className="product-item mt-10">
-      <div className="product-item-img bg-white rounded-full w-20 h-20"></div>
+      <div className="product-item-img bg-white rounded-full w-20 h-20 border-solid border-4 border-primary"></div>
       <div className="w-20">
         <p className="text-sm text-center font-medium mt-2">Product A</p>
         <p className="text-xs text-center text-indigo-400">40 THB</p>
