@@ -1,5 +1,5 @@
-import React from "react";
 import InputBox from "./InputBox";
+import PaymentPopover from "./PaymentPopover";
 import ProductCheckout from "./ProductCheckout";
 
 export default function CheckoutPage() {
@@ -13,11 +13,7 @@ export default function CheckoutPage() {
         <div className="mt-6">
           <InputBox />
         </div>
-        <div className="mt-8 flex justify-center">
-          <button className="bg-[#3C4257] py-2 px-6 rounded">
-            <p className="text-[#697386]">Pay 55 Bath</p>
-          </button>
-        </div>
+        <PaymentPopover />
       </div>
     </div>
   );
