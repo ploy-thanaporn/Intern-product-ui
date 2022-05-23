@@ -44,7 +44,8 @@ export default function PaymentPopover() {
           horizontal: "left",
         }}
       >
-        <Typography sx={{ p: 1 }} className="bg-[#5bb543] text-white">
+        <Typography sx={{ p: 0.5 }} className="bg-[#5bb543] text-white text-sm">
+          <span className="material-icons">check_circle</span>
           Payment Success!
         </Typography>
       </Popover>
